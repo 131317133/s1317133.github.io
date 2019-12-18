@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>夏休みの思い出</title>
+    
+    
+<style>
+    body{
+      text-align: center;
+        width:1000px;
+        height: 800px;
+        text-align:center;
+        background-color: antiquewhite;
+    }
+    
+    #title{
+        font-size: 40px;
+        font-family: serif;
+        background: #ffa500;
+        color: #000000;
+        border: 2px dashed #00008b;
+        margin: 30px;
+        padding: 10px;
+    }
+    </style>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+$(function(){
+  $("#img").click(function(){
+    $(this).attr('src', 'gusta.jpg');
+  },
+  function(){
+    $(this).attr('src', 'gusta2.jpg');
+  });
+    $("#img").width(500).height(400);
+});
+</script>
+</head>
+<body>
+    <h1 id="title">FC.GUSTA 夏合宿</h1>
+    <h2>↓画像をクリック↓</h2>
+  <img src="gusta.jpg" id="img">
+</body>
+</html>
+
