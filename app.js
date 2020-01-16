@@ -22,7 +22,7 @@ content.textContent = text;
 
 } );
 function getVideo() {
-     var URL = '<iframe width="1000" height="1000" src="http://127.0.0.1:50184/game.html" </iframe>'
+     var URL = '<iframe width="1000" height="1000" src="game.html" </iframe>'
          
          
        content.innerHTML = URL;
@@ -33,6 +33,6 @@ function getSearch() {
     
     iframe.width = '2000px';
     iframe.height = '2000px';
-    iframe.src = 'http://127.0.0.1:50184/snow.html';
+    iframe.src = 'snow.html';
     content.appendChild(iframe);
 }
