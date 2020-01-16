@@ -22,7 +22,7 @@ content.textContent = text;
 
 } );
 function getVideo() {
-     var URL = '<iframe width="1000" height="1000" src="game.html" </iframe>'
+     var URL = '<iframe width="1000" height="1000" src="https://nanakoseki.github.io/game.html" </iframe>'
          
          
        content.innerHTML = URL;
@@ -33,6 +33,6 @@ function getSearch() {
     
     iframe.width = '2000px';
     iframe.height = '2000px';
-    iframe.src = 'snow.html';
+    iframe.src = 'https://nanakoseki.github.io/snow.html';
     content.appendChild(iframe);
 }
